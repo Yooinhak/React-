@@ -28,15 +28,16 @@
   border-radius: 50px;
   right: 0px;
   border: none;
-  font-size: 15px;
-  background-color: #2f74c0;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: #d2daff;
   color: white;
   transition: 0.2s all;
   box-shadow: 0 0 10px black;
 }
 
 .input_submit:hover {
-  background-color: #388ae2;
+  background-color: #d2daff;
 }
 
 .input_submit:active {
@@ -58,7 +59,7 @@
   flex-direction: column;
   padding: 15px;
   border-radius: 5px;
-  background-color: rgb(50, 195, 205);
+  background-color: #aac4ff;
 }
 
 .todos_heading {
@@ -71,7 +72,7 @@
   border-radius: 5px;
   padding: 20px;
   margin-top: 15px;
-  background: linear-gradient(0deg, yellow, lightGreen);
+  background-color: #eef1ff;
   transition: 0.2s;
 }
 
@@ -119,5 +120,5 @@
 }
 
 .remove {
-  background-color: rgb(235, 103, 80);
+  background-color: #d2daff;
 }

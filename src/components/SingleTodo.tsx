@@ -39,7 +39,6 @@ const SingleTodo: React.FC<Props> = ({ index, todo, todos, setTodos }) => {
   };
 
   const inputRef = useRef<HTMLInputElement>(null);
-
   useEffect(() => {
     inputRef.current?.focus();
   }, [edit]);
